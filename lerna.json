@@ -1,0 +1,10 @@
+{
+  "packages": ["packages/**/*"],
+  "version": "independent",
+  "command": {
+    "bootstrap": {
+      "hoist": true,
+      "nohoist": ["eslint", "eslint-*"]
+    }
+  }
+}
